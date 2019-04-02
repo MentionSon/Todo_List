@@ -12,11 +12,7 @@ let todoSchema = new mongoose.Schema({
 
 let Todo = mongoose.model('Todo', todoSchema);
 
-/* let itemOne = Todo({item: "buy coffe"}).save(err => {
-  if (err) throw err;
-  console.log('item saved');
-});
-
+/*
 let data = [
   {item: 'get milk'},
   {item: 'walk dog'},
